@@ -1,0 +1,15 @@
+//jquery plugin scroll to some div at vertical
+//usage: $("div").scrollTo();
+jQuery.fn.extend(
+{
+  scrollTo : function(speed, easing)
+  if(!speed) speed = 500;
+  if(!easing) easing = fadeIn();
+  {
+    return this.each(function()
+    {
+      var targetOffset = $(this).offset().top;
+      $('html,body').animate({scrollTop: targetOffset}, speed, easing);
+    });
+  }
+});
