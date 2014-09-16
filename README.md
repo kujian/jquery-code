@@ -1,4 +1,4 @@
 jquery-code
 ===========
 
-some usefully jquery code share
+some awesome jquery code share
